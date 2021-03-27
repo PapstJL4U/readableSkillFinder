@@ -5,9 +5,9 @@ values = list(range(0,len(findskills)))
 for i in range(0,len(values)):
 	values[i] = ["---"]*256
 keys = [""]
-
+name = "".join(findskills).replace(" ", "_")
 with open("Skills.tsv") as tsvfile:
-	with open("output.tsv", "w+") as output:
+	with open(name+".tsv", "w+") as output:
 		
 		#values = [""]
 		tsvreader = csv.reader(tsvfile, delimiter="\t")	    
