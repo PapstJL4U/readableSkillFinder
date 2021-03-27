@@ -1,0 +1,256 @@
+skill	Sanctuary	Holy Freeze	Fanaticism
+Id	119	114	122
+charclass	pal	pal	pal
+skilldesc	sanctuary	holy freeze	fanaticism
+srvstfunc			
+srvdofunc	66	81	65
+prgstack			
+srvprgfunc1			
+srvprgfunc2			
+srvprgfunc3			
+prgcalc1			
+prgcalc2			
+prgcalc3			
+prgdam			
+srvmissile			
+decquant			
+lob			
+srvmissilea			
+srvmissileb			
+srvmissilec			
+srvoverlay			
+aurafilter	59270	303747	73731
+aurastate	sanctuary	holywind	fanaticism
+auratargetstate		holywindcold	fanaticism
+auralencalc			
+aurarangecalc	ln12	ln12	ln12
+aurastat1	item_undeaddamage_percent	velocitypercent	attackrate
+aurastatcalc1	ln34	-dm34	dm34
+aurastat2	item_undead_tohit	attackrate	item_tohit_percent
+aurastatcalc2	ln56	-dm34	toht
+aurastat3	skill_bypass_undead	other_animrate	damagepercent
+aurastatcalc3	1	-dm34	ln56/2
+aurastat4			
+aurastatcalc4			
+aurastat5			
+aurastatcalc5			
+aurastat6			
+aurastatcalc6			
+auraevent1			
+auraeventfunc1			
+auraevent2			
+auraeventfunc2			
+auraevent3			
+auraeventfunc3			
+auratgtevent			
+auratgteventfunc			
+passivestate			
+passiveitype			
+passivestat1		coldmindam	damagepercent
+passivecalc1		enms*par5/256	ln56
+passivestat2		coldmaxdam	
+passivecalc2		exms*par5/256	
+passivestat3			
+passivecalc3			
+passivestat4			
+passivecalc4			
+passivestat5			
+passivecalc5			
+passiveevent			
+passiveeventfunc			
+summon			
+pettype			
+petmax			
+summode			
+sumskill1			
+sumsk1calc			
+sumskill2			
+sumsk2calc			
+sumskill3			
+sumsk3calc			
+sumskill4			
+sumsk4calc			
+sumskill5			
+sumsk5calc			
+sumumod			
+sumoverlay			
+stsuccessonly			
+stsound			
+stsoundclass			
+stsounddelay			
+weaponsnd			
+dosound			
+dosound a			
+dosound b			
+tgtoverlay			
+tgtsound			
+prgoverlay			
+prgsound			
+castoverlay	cast_undead		
+cltoverlaya			
+cltoverlayb			
+cltstfunc			
+cltdofunc			
+cltprgfunc1			
+cltprgfunc2			
+cltprgfunc3			
+cltmissile			
+cltmissilea	sanctuarybolt		
+cltmissileb			
+cltmissilec			
+cltmissiled			
+cltcalc1			
+*cltcalc1 desc			
+cltcalc2			
+*cltcalc2 desc			
+cltcalc3			
+*cltcalc3 desc			
+warp			
+immediate			1
+enhanceable	1	1	1
+attackrank	0	8	8
+noammo			
+range	none	none	none
+weapsel			
+itypea1			
+itypea2			
+itypea3			
+etypea1			
+etypea2			
+itypeb1			
+itypeb2			
+itypeb3			
+etypeb1			
+etypeb2			
+anim			
+seqtrans			
+monanim	xx	xx	S1
+seqnum			
+seqinput			
+durability			
+UseAttackRate			
+LineOfSight			
+TargetableOnly			
+SearchEnemyXY			
+SearchEnemyNear			
+SearchOpenXY			
+SelectProc			
+TargetCorpse			
+TargetPet			
+TargetAlly			
+TargetItem			
+AttackNoMana			
+TgtPlaceCheck			
+ItemEffect	1		
+ItemCltEffect			
+ItemTgtDo			
+ItemTarget			
+ItemCheckStart			
+ItemCltCheckStart			
+ItemCastSound			
+ItemCastOverlay			
+skpoints			
+reqlevel	24	18	30
+maxlvl	20	20	20
+reqstr			
+reqdex			
+reqint			
+reqvit			
+reqskill1	Thorns	Holy Fire	Concentration
+reqskill2	Holy Freeze		
+reqskill3			
+restrict			
+State1			
+State2			
+State3			
+delay			
+leftskill			
+repeat			
+checkfunc			
+nocostinstate			
+usemanaondo			
+startmana			
+minmana	1	0	0
+manashift	8	8	8
+mana	1	0	0
+lvlmana	0	0	0
+interrupt	1	1	1
+InTown	1	1	1
+aura	1	1	1
+periodic			
+perdelay	50	50	50
+finishing			
+passive			
+progressive			
+general			
+scroll			
+calc1			
+*calc1 desc			
+calc2			
+*calc2 desc			
+calc3			
+*calc3 desc			
+calc4			
+*calc4 desc			
+Param1	5	6	11
+*Param1 Description	radius	radius	radius
+Param2	1	1	1
+*Param2 Description	additional radius per level	additional radius per level	additional radius per level
+Param3	150	25	10
+*Param3 Description	% damage to undead	min% slowing	min% boost
+Param4	30	60	40
+*Param4 Description	% damage per level	max% slowing	max% boost
+Param5	100	5	50
+*Param5 Description	att vs. undead	damage to attack multiplier	% damage boost
+Param6	50	0	17
+*Param6 Description	att vs. undead per level	?	% damage bonus per level
+Param7		7	
+*Param7 Description		damage synergy	
+Param8	7	15	
+*Param8 Description	damage synergy	damage synergy	
+InGame	1	1	1
+ToHit			40
+LevToHit			5
+ToHitCalc			
+ResultFlags	11	16385	
+HitFlags			
+HitClass	157		
+Kick			
+HitShift	8	8	8
+SrcDam			
+MinDam			
+MinLevDam1			
+MinLevDam2			
+MinLevDam3			
+MinLevDam4			
+MinLevDam5			
+MaxDam			
+MaxLevDam1			
+MaxLevDam2			
+MaxLevDam3			
+MaxLevDam4			
+MaxLevDam5			
+DmgSymPerCalc			
+EType	mag	cold	
+EMin	8	2	
+EMinLev1	4	1	
+EMinLev2	4	2	
+EMinLev3	5	3	
+EMinLev4	5	4	
+EMinLev5	6	5	
+EMax	16	3	
+EMaxLev1	4	1	
+EMaxLev2	5	2	
+EMaxLev3	6	3	
+EMaxLev4	6	4	
+EMaxLev5	7	5	
+EDmgSymPerCalc	skill('Cleansing'.blvl)*par8	skill('Resist Cold'.blvl)*par8+skill('Salvation'.blvl)*par7	
+ELen			
+ELevLen1			
+ELevLen2			
+ELevLen3			
+ELenSymPerCalc			
+aitype			
+aibonus			
+cost mult	768	640	896
+cost add	32000	16000	64000
