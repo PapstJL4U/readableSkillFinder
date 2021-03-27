@@ -1,0 +1,256 @@
+skill	Freezing Arrow	Strafe	Exploding Arrow
+Id	31	26	16
+charclass	ama	ama	ama
+skilldesc	freezing arrow	strafe	exploding arrow
+srvstfunc	4	8	4
+srvdofunc		12	
+prgstack			
+srvprgfunc1			
+srvprgfunc2			
+srvprgfunc3			
+prgcalc1			
+prgcalc2			
+prgcalc3			
+prgdam			
+srvmissile	freezingarrow		explodingarrow
+decquant	1		1
+lob			
+srvmissilea		strafearrow	
+srvmissileb		strafebolt	
+srvmissilec			
+srvoverlay			
+aurafilter			
+aurastate			
+auratargetstate			
+auralencalc			
+aurarangecalc		par5	
+aurastat1			
+aurastatcalc1			
+aurastat2			
+aurastatcalc2			
+aurastat3			
+aurastatcalc3			
+aurastat4			
+aurastatcalc4			
+aurastat5			
+aurastatcalc5			
+aurastat6			
+aurastatcalc6			
+auraevent1			
+auraeventfunc1			
+auraevent2			
+auraeventfunc2			
+auraevent3			
+auraeventfunc3			
+auratgtevent			
+auratgteventfunc			
+passivestate			
+passiveitype			
+passivestat1			
+passivecalc1			
+passivestat2			
+passivecalc2			
+passivestat3			
+passivecalc3			
+passivestat4			
+passivecalc4			
+passivestat5			
+passivecalc5			
+passiveevent			
+passiveeventfunc			
+summon			
+pettype			
+petmax			
+summode			
+sumskill1			
+sumsk1calc			
+sumskill2			
+sumsk2calc			
+sumskill3			
+sumsk3calc			
+sumskill4			
+sumsk4calc			
+sumskill5			
+sumsk5calc			
+sumumod			
+sumoverlay			
+stsuccessonly			
+stsound		amazon_dodge_1	
+stsoundclass			
+stsounddelay			
+weaponsnd			
+dosound			
+dosound a		paladin_charge	
+dosound b			
+tgtoverlay			
+tgtsound			
+prgoverlay			
+prgsound			
+castoverlay			
+cltoverlaya			
+cltoverlayb			
+cltstfunc	11	13	11
+cltdofunc		20	
+cltprgfunc1			
+cltprgfunc2			
+cltprgfunc3			
+cltmissile	freezingarrow		explodingarrow
+cltmissilea		multipleshotarrow	
+cltmissileb		multipleshotbolt	
+cltmissilec			
+cltmissiled			
+cltcalc1			
+*cltcalc1 desc			
+cltcalc2			
+*cltcalc2 desc			
+cltcalc3			
+*cltcalc3 desc			
+warp			
+immediate			
+enhanceable	1	1	1
+attackrank	7	0	5
+noammo			
+range	rng	rng	rng
+weapsel			
+itypea1	miss	miss	miss
+itypea2			
+itypea3			
+etypea1			
+etypea2			
+itypeb1			
+itypeb2			
+itypeb3			
+etypeb1			
+etypeb2			
+anim	A1	A1	A1
+seqtrans	A1	A1	A1
+monanim	xx	xx	xx
+seqnum			
+seqinput			
+durability			
+UseAttackRate	1	1	1
+LineOfSight			
+TargetableOnly			
+SearchEnemyXY			
+SearchEnemyNear			
+SearchOpenXY			
+SelectProc			
+TargetCorpse			
+TargetPet			
+TargetAlly			
+TargetItem			
+AttackNoMana			
+TgtPlaceCheck			
+ItemEffect			
+ItemCltEffect			
+ItemTgtDo			
+ItemTarget			
+ItemCheckStart			
+ItemCltCheckStart			
+ItemCastSound			
+ItemCastOverlay			
+skpoints			
+reqlevel	30	24	12
+maxlvl	20	20	20
+reqstr			
+reqdex			
+reqint			
+reqvit			
+reqskill1	Ice Arrow	Guided Arrow	Fire Arrow
+reqskill2			Multiple Shot
+reqskill3			
+restrict			
+State1			
+State2			
+State3			
+delay			
+leftskill	1	1	1
+repeat			
+checkfunc	1	1	1
+nocostinstate			
+usemanaondo			
+startmana			
+minmana	1	1	1
+manashift	7	8	7
+mana	18	11	10
+lvlmana	1	0	1
+interrupt	1		1
+InTown			
+aura			
+periodic			
+perdelay			
+finishing			
+passive			
+progressive			
+general			
+scroll			
+calc1	par1	min(par3 + lvl - 1, par4)	
+*calc1 desc	damage radius	#missiles	
+calc2		ln12	
+*calc2 desc		damage %	
+calc3		2+lvl/4	
+*calc3 desc		min # missiles	
+calc4			
+*calc4 desc			
+Param1	5	5	
+*Param1 Description	Radius of impact	Damage increase	
+Param2		5	
+*Param2 Description		Damage increase per level	
+Param3		4	
+*Param3 Description		Base Shots to take (+1 per level)	
+Param4		10	
+*Param4 Description		Max shots to take	
+Param5		35	
+*Param5 Description		Radius	
+Param6		50	
+*Param6 Description		% frame rollback	
+Param7	5		
+*Param7 Description	length synergy		
+Param8	12		12
+*Param8 Description	damage synergy		damage synergy
+InGame	1	1	1
+ToHit	40		20
+LevToHit	9		9
+ToHitCalc			
+ResultFlags			
+HitFlags			
+HitClass			
+Kick			
+HitShift	8	8	8
+SrcDam	128	96	128
+MinDam			
+MinLevDam1			
+MinLevDam2			
+MinLevDam3			
+MinLevDam4			
+MinLevDam5			
+MaxDam			
+MaxLevDam1			
+MaxLevDam2			
+MaxLevDam3			
+MaxLevDam4			
+MaxLevDam5			
+DmgSymPerCalc			
+EType	cold		fire
+EMin	40		2
+EMinLev1	10		5
+EMinLev2	15		7
+EMinLev3	20		9
+EMinLev4	22		12
+EMinLev5	24		20
+EMax	50		6
+EMaxLev1	10		5
+EMaxLev2	15		8
+EMaxLev3	20		11
+EMaxLev4	22		14
+EMaxLev5	24		23
+EDmgSymPerCalc	(skill('Cold Arrow'.blvl))*par8		(skill('Fire Arrow'.blvl)) * par8
+ELen	50		
+ELevLen1			
+ELevLen2			
+ELevLen3			
+ELenSymPerCalc	(skill('Ice Arrow'.blvl)) * par7		
+aitype			
+aibonus			
+cost mult	896	768	512
+cost add	64000	32000	8000

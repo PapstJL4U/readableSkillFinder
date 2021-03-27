@@ -1,6 +1,6 @@
 import csv, collections
 
-findskills = ["sanctuary", "holy freeze", "fanaticism"]
+findskills = ["Freezing Arrow", "strafe", "exploding arrow"]
 values = list(range(0,len(findskills)))
 for i in range(0,len(values)):
 	values[i] = ["---"]*256
@@ -18,7 +18,7 @@ with open("Skills.tsv") as tsvfile:
 				#tsvwriter.writerow(line)
 			else:
 				for j,skill in enumerate(findskills):
-					if line[0].lower()==skill:
+					if line[0].lower()==skill.lower():
 						values[j] = line
 						#print(line)
 						#tsvwriter.writerow(line)
